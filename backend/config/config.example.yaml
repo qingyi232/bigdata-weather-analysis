@@ -1,0 +1,24 @@
+# 配置文件示例
+# 复制此文件为 config.yaml 并填入真实配置
+
+# 请在以下位置填入真实的 API Key:
+
+weather_data_sources:
+  qweather:
+    api_key: "在这里填入和风天气API Key"  # 注册: https://dev.qweather.com/
+  
+  openweathermap:
+    api_key: "在这里填入OpenWeatherMap API Key"  # 注册: https://openweathermap.org/api
+  
+  cma:
+    username: "在这里填入中国气象数据网用户名"  # 注册: http://data.cma.cn/
+    password: "在这里填入中国气象数据网密码"
+  
+  nasa:
+    api_key: "在这里填入NASA API Key"  # 注册: https://earthdata.nasa.gov/
+
+database:
+  mysql:
+    password: "在这里填入MySQL密码"
+
+
