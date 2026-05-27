@@ -111,3 +111,12 @@ Thumbs.db
 .DS_Store
 
 
+
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.ppt
+*.wps
+*.xlsx
+*.xls
